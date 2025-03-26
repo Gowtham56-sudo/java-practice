@@ -2,19 +2,15 @@ import java.util.Scanner;
 class q3{
     public static void main(String args[])
     {
-       Scanner name=new Scanner(System.in);
+        Scanner mark = new Scanner(System.in);
+        int a =mark.nextInt();
 
-       String RCB=name.nextLine();
-
-       String a=new String("Win");
-       String b=new String("Lose");
-
-       if(RCB.equals(a)){
-        System.out.println("EE saala cup namde");
-       }
-       else{
-        System.out.println("Cup illa");
-       }
-
+        if((a % 3 == 0 )&& (a%5==0))
+        {
+            System.out.print("the Number is divisible by 3 and 5");
+        }
+        else{
+            System.out.print("The number is not divisibe by 3 and 3");
+        }
     }
 }
