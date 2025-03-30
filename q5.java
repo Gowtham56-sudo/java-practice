@@ -3,9 +3,10 @@ class q5{
         boolean kfc = true;
         boolean chicken = false;
         boolean pepsi = false;
+        boolean french =true;
 
         if(kfc){
-            System.out.print("Enter into KFC");
+            System.out.println("Enter into KFC");
 
             if(chicken){
                 System.out.println("eating chicken");
@@ -19,6 +20,10 @@ class q5{
             }
             else{
                 System.out.println("Eat Burger");
+
+                if(french){
+                    System.out.println("Its tasty");
+                }
             }
 
 
